@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.back {
+  float: left;
+  width: 0%;
+  height: 50%;
+  padding-top: 5%;
+}
+
+.logo {
+  float: left;
+  width: 90%;
+  padding-top: 1%;
+}
+
+.top {
+  padding-top: 2.25%;
+  padding-bottom: 2.25%;
+}
+
+.change {
+  float:left;
+  width: 80%;
+  text-decoration: underline;
+  padding-right: 6%;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.sort {
+  float:right;
+  width: 80%;
+  text-decoration: underline;
+  padding-left: 6%;
+}
+
+.change_and_sort {
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+
+.out {
+  float: none;
+  width: 64%;
+}
+
+.resume {
+  float: right;
+  width: 0%;
+}
+
+.left {
+  float: left;
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 3%;
+  padding-top: 3%;
+}
+
+.middle {
+  float: none;
+  width: 120%;
+  vertical-align: middle;
+  text-align: center;
+  display: inline-block;
+  line-height: 1.25;
+  padding-top: 5%;
+}
+
+.right {
+  float:right;
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: .8;
+  padding-top: 0.65%;
+  padding-top: 3.5%;
+}
+
+.bus {
+  margin: 10px 0;
+}
+
+.resume_time {
+  float:right;
+  width: 50%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: .8;
+  padding-top: 0.65%;
+  padding-top: 3.5%;
+  margin-left: 0;
+  margin-right: 2%;
+}
+
+.header {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background-color: #688DC3;
+}
+
+h2 {
+  color: white;
+  font-size: 150%;
+  letter-spacing: 0.04em;
+}
+
+h3 {
+  font-size: 300%;
+  font-weight: lighter;
+  /*color: #688DC3; */
+}
+
+h4 {
+  font-size: 250%;
+  font-weight: 200;
+}
+
+h5 {
+  font-size: 70%;
+  font-weight: 550;
+}
+
+h6 {
+  font-size: 170%;
+  padding-top: 3.5%;
+}
+
+.direction, .other {
+  text-decoration: underline;
+  vertical-align: baseline;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-top: 0;
+  border-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #688DC350;
+}
+
+/*@media only screen and (min-width: 575px) {
+   div {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1199px) {
+   div {
+    width: 25%;
+  }
+}
+*/
