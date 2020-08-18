@@ -63,6 +63,8 @@ hr {
 .resume {
   float: right;
   width: 0%;
+  position: absolute;
+  right: 12.5%;
 }
 
 .left {
@@ -81,7 +83,7 @@ hr {
   vertical-align: middle;
   text-align: center;
   display: inline-block;
-  line-height: 1.25;
+  line-height: 1.5;
   padding-top: 5%;
 }
 
@@ -114,8 +116,8 @@ hr {
 }
 
 .header {
-  padding-top: 4%;
-  padding-bottom: 4%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: #688DC3;
 }
 
