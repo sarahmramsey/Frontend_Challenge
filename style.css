@@ -24,7 +24,7 @@ div, ul {
   padding-top: 1%;
 }
 
-.top {
+.nav {
   padding-top: 2.25%;
   padding-bottom: 2.25%;
 }
@@ -83,8 +83,8 @@ hr {
   vertical-align: middle;
   text-align: center;
   display: inline-block;
-  line-height: 1.5;
-  padding-top: 5%;
+  line-height: 1.6;
+  padding-top: 3%;
 }
 
 .col3 {
